@@ -1,4 +1,4 @@
-# Football Manager
+# Redux Football Manager
 A graphical interface made to build a football team formation with Captain Tsubasa Characters.\
 The mail purpose of this application is to serve as practice for state management with the Redux library.
 
