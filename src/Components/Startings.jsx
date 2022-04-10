@@ -5,8 +5,8 @@ const Startings = ({startings, removeStarting}) => {
     return(
         <section>
             <h2>Starting Players</h2>
-             <div className="field">
-                 {
+            <div className="field">
+                {
                     startings.map(player => (
                         <article className="starting" key={player.id}>
                             <div>
@@ -18,7 +18,7 @@ const Startings = ({startings, removeStarting}) => {
                     ))
                 }
                 <Field/>
-             </div>
+            </div>
         </section>
     );
 }
